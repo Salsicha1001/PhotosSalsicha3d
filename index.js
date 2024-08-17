@@ -1,35 +1,43 @@
 const fs = require('fs');
 const path = require('path');
-const express = require('express');
-const app = express();
-const port = 3000;
-function readDirRecursive(dirPath) {
-    const result = { name: path.basename(dirPath), type: 'directory', children: [] };
 
-    const items = fs.readdirSync(dirPath);
-    for (const item of items) {
-        const fullPath = path.join(dirPath, item);
-        const stats = fs.statSync(fullPath);
+// Função para listar diretórios e arquivos
+function listDirectoryContents(dirPath) {
+    let results = {
+        name: path.basename(dirPath),
+        type: 'directory',
+        children: []
+    };
+    
+    const list = fs.readdirSync(dirPath);
 
-        if (stats.isDirectory()) {
-            result.children.push(readDirRecursive(fullPath));
-        } else if (stats.isFile()) {
-            result.children.push({ name: item, type: 'file' });
+    list.forEach(function(file) {
+        const fullPath = path.join(dirPath, file);
+        const stat = fs.statSync(fullPath);
+
+        if (stat && stat.isDirectory()) {
+            results.children.push(listDirectoryContents(fullPath));
+        } else {
+            results.children.push({
+                name: file,
+                type: 'file'
+            });
         }
-    }
+    });
 
-    return result;
+    return results;
 }
- 
-app.get('/api/files', (req, res) => {
-    const projectDir = path.resolve(__dirname); // Ajuste conforme necessário
-    const directoryStructure = readDirRecursive(projectDir);
-    res.json(directoryStructure);
-});
 
-// Servir arquivos estáticos, como HTML e CSS
-app.use(express.static(path.join(__dirname, 'public')));
+// Diretório raiz do projeto
+const rootDir = path.resolve('3D');
 
-app.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}`);
-});
+// Gera lista de diretórios e arquivos
+const directoryStructure = listDirectoryContents(rootDir);
+
+// Gera o conteúdo JSON
+const jsonContent = JSON.stringify(directoryStructure, null, 2);
+
+// Salva o arquivo JSON
+fs.writeFileSync('directoryStructure.json', jsonContent);
+
+console.log('Arquivo JSON gerado com sucesso!');
