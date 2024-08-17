@@ -1,28 +1,25 @@
 const fs = require('fs');
 const path = require('path');
 
-function listDirectories(dirPath) {
-    let results = [];
+function readDirRecursive(dirPath) {
+    const result = { name: path.basename(dirPath), type: 'directory', children: [] };
 
-    // Lê o conteúdo do diretório
-    const list = fs.readdirSync(dirPath);
+    const items = fs.readdirSync(dirPath);
+    for (const item of items) {
+        const fullPath = path.join(dirPath, item);
+        const stats = fs.statSync(fullPath);
 
-    list.forEach((file) => {
-        const filePath = path.join(dirPath, file);
-
-        // Verifica se é um diretório
-        if (fs.statSync(filePath).isDirectory()) {
-            results.push(file); // Adiciona o nome do diretório atual
-
-            // Chama a função recursivamente para listar subpastas
-            results = results.concat(listDirectories(filePath).map(subDir => path.join(file, subDir)));
+        if (stats.isDirectory()) {
+            result.children.push(readDirRecursive(fullPath));
+        } else if (stats.isFile()) {
+            result.children.push({ name: item, type: 'file' });
         }
-    });
+    }
 
-    return results;
+    return result;
 }
 
-// Exemplo de uso
-const rootDir = '\Cosplay'; 
-const directories = listDirectories(rootDir);
-console.log(directories)
+const projectDir = path.resolve(__dirname);
+const directoryStructure = readDirRecursive(projectDir);
+
+console.log(JSON.stringify(directoryStructure, null, 2));
