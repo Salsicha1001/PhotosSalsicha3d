@@ -23,4 +23,3 @@ const projectDir = path.resolve(__dirname);
 const directoryStructure = readDirRecursive(projectDir);
 
 console.log(JSON.stringify(directoryStructure, null, 2));
-
