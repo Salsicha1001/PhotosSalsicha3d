@@ -26,8 +26,3 @@ jobs:
     - name: Run script to generate JSON
       run: node index.js
 
-    - name: Commit directories.json
-      run: |
-        git add directories.json
-        git commit -m "Update directories.json"
-        git push

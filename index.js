@@ -25,7 +25,4 @@ function listDirectories(dirPath) {
 // Exemplo de uso
 const rootDir = '\Cosplay'; 
 const directories = listDirectories(rootDir);
-
-// Salva o resultado em um arquivo JSON
-fs.writeFileSync('directories.json', JSON.stringify(directories, null, 2), 'utf8');
-
+console.log(directories)
