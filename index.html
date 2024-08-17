@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directory List</title>
+</head>
+<body>
+    <h1>Directories</h1>
+    <pre id="content"></pre>
+    <script>
+        fetch('directories.json')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('content').textContent = JSON.stringify(data, null, 2);
+            })
+            .catch(error => {
+                console.error('Error fetching JSON:', error);
+            });
+    </script>
+</body>
+</html>
