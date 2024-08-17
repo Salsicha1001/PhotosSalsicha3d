@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Salsicha1001/PhotosSalsicha3d/issues"
   },
-  "homepage": "https://github.com/Salsicha1001/PhotosSalsicha3d#readme"
+  "homepage": "https://github.com/Salsicha1001/PhotosSalsicha3d#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }

@@ -9,14 +9,18 @@
     <h1>Directories</h1>
     <pre id="content"></pre>
     <script>
-        fetch('directories.json')
-            .then(response => response.json())
-            .then(data => {
-                document.getElementById('content').textContent = JSON.stringify(data, null, 2);
-            })
-            .catch(error => {
-                console.error('Error fetching JSON:', error);
-            });
+        async function loadFileStructure() {
+            try {
+                const response = await fetch('/api/files'); // Solicitar JSON do servidor
+                if (!response.ok) throw new Error('Network response was not ok');
+                const data = await response.json();
+                document.getElementById('file-structure').textContent = JSON.stringify(data, null, 2);
+            } catch (error) {
+                console.error('Error loading file structure:', error);
+                document.getElementById('file-structure').textContent = 'Failed to load file structure.';
+            }
+        }
+        loadFileStructure();
     </script>
 </body>
 </html>
