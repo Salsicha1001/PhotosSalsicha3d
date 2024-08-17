@@ -24,8 +24,6 @@ jobs:
       - name: Start
         run: node index.js
 
-      - name: Generate JSON
-        run: node generateDirectoryList.js
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.0
