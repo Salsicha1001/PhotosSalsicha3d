@@ -28,6 +28,6 @@ jobs:
 
     - name: Commit directories.json
       run: |
-        git add public/directories.json
+        git add directories.json
         git commit -m "Update directories.json"
         git push
