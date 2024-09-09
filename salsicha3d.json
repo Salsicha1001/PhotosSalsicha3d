@@ -3,53 +3,283 @@
   "type": "directory",
   "children": [
     {
-      "name": "lol",
-      "type": "directory",
-      "children": []
-    },
-    {
-      "name": "zelda",
+      "name": "blog",
       "type": "directory",
       "children": [
         {
-          "name": "default.json",
-          "type": "file"
-        },
-        {
-          "name": "images",
+          "name": "zelda",
           "type": "directory",
           "children": [
             {
-              "name": "3D1.jpg",
+              "name": "default.json",
               "type": "file"
             },
             {
-              "name": "3D2.jpg",
-              "type": "file"
-            },
-            {
-              "name": "3D3.jpg",
-              "type": "file"
-            },
-            {
-              "name": "3D4.jpg",
-              "type": "file"
-            },
-            {
-              "name": "3D5.jpg",
-              "type": "file"
-            },
-            {
-              "name": "3D6.jpg",
-              "type": "file"
-            },
-            {
-              "name": "teste-roupa.jpg",
-              "type": "file"
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "3D1.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "3D2.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "3D3.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "3D4.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "3D5.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "3D6.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "teste-roupa.jpg",
+                  "type": "file"
+                }
+              ]
             }
           ]
         }
       ]
+    },
+    {
+      "name": "itens",
+      "type": "directory",
+      "children": [
+        {
+          "name": "ahri-florescer-espiritual",
+          "type": "directory",
+          "children": [
+            {
+              "name": "default.json",
+              "type": "file"
+            },
+            {
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "ahri-florescer1.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "ahri-florescer2.jpg",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "angelwomon",
+          "type": "directory",
+          "children": [
+            {
+              "name": "default.json",
+              "type": "file"
+            },
+            {
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "angelwomon1.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "angelwomon2.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "angelwomon3.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "angelwomon4.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "angelwomon5.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "angelwomon6.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "angelwomon7.jpg",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "evelynn-congregacao-das-bruxas",
+          "type": "directory",
+          "children": [
+            {
+              "name": "default.json",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "majoras-mask",
+          "type": "directory",
+          "children": [
+            {
+              "name": "default.json",
+              "type": "file"
+            },
+            {
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "majoras1.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "majoras1.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "majoras2.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "majoras2.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "majoras3.jpeg",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "master-sword-tears",
+          "type": "directory",
+          "children": [
+            {
+              "name": "default.json",
+              "type": "file"
+            },
+            {
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "3D1.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "3D3.jpg",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "mona",
+          "type": "directory",
+          "children": [
+            {
+              "name": "default.json",
+              "type": "file"
+            },
+            {
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "mona1.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "mona2.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "mona3.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "mona4.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "mona5.JPG",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "peach",
+          "type": "directory",
+          "children": [
+            {
+              "name": "default.json",
+              "type": "file"
+            },
+            {
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "image.png",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "shaco",
+          "type": "directory",
+          "children": [
+            {
+              "name": "default.json",
+              "type": "file"
+            },
+            {
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "shaco1.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "shaco2.jpg",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "lol",
+      "type": "directory",
+      "children": []
     }
   ]
 }
