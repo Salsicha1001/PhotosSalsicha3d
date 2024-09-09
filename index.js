@@ -29,7 +29,7 @@ function listDirectoryContents(dirPath) {
 }
 
 // Diretório raiz do projeto
-const rootDir = path.resolve('3D');
+const rootDir = path.resolve('salsicha3d');
 
 // Gera lista de diretórios e arquivos
 const directoryStructure = listDirectoryContents(rootDir);
@@ -38,6 +38,6 @@ const directoryStructure = listDirectoryContents(rootDir);
 const jsonContent = JSON.stringify(directoryStructure, null, 2);
 
 // Salva o arquivo JSON
-fs.writeFileSync('directoryStructure.json', jsonContent);
+fs.writeFileSync('salsicha3d.json', jsonContent);
 
 console.log('Arquivo JSON gerado com sucesso!');

@@ -1,0 +1,55 @@
+{
+  "name": "salsicha3d",
+  "type": "directory",
+  "children": [
+    {
+      "name": "lol",
+      "type": "directory",
+      "children": []
+    },
+    {
+      "name": "zelda",
+      "type": "directory",
+      "children": [
+        {
+          "name": "default.json",
+          "type": "file"
+        },
+        {
+          "name": "images",
+          "type": "directory",
+          "children": [
+            {
+              "name": "3D1.jpg",
+              "type": "file"
+            },
+            {
+              "name": "3D2.jpg",
+              "type": "file"
+            },
+            {
+              "name": "3D3.jpg",
+              "type": "file"
+            },
+            {
+              "name": "3D4.jpg",
+              "type": "file"
+            },
+            {
+              "name": "3D5.jpg",
+              "type": "file"
+            },
+            {
+              "name": "3D6.jpg",
+              "type": "file"
+            },
+            {
+              "name": "teste-roupa.jpg",
+              "type": "file"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
