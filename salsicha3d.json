@@ -125,16 +125,6 @@
           ]
         },
         {
-          "name": "evelynn-congregacao-das-bruxas",
-          "type": "directory",
-          "children": [
-            {
-              "name": "default.json",
-              "type": "file"
-            }
-          ]
-        },
-        {
           "name": "majoras-mask",
           "type": "directory",
           "children": [
