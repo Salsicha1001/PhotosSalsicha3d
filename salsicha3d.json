@@ -143,23 +143,23 @@
               "type": "directory",
               "children": [
                 {
-                  "name": "akali1.jpg",
+                  "name": "akali1.jpeg",
                   "type": "file"
                 },
                 {
-                  "name": "akali2.jpg",
+                  "name": "akali2.jpeg",
                   "type": "file"
                 },
                 {
-                  "name": "akali3.jpg",
+                  "name": "akali3.jpeg",
                   "type": "file"
                 },
                 {
-                  "name": "akali4.jpg",
+                  "name": "akali4.jpeg",
                   "type": "file"
                 },
                 {
-                  "name": "akali5.jpg",
+                  "name": "akali5.jpeg",
                   "type": "file"
                 }
               ]
@@ -236,6 +236,30 @@
                 },
                 {
                   "name": "angelwomon7.jpg",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "black-swan",
+          "type": "directory",
+          "children": [
+            {
+              "name": "default.json",
+              "type": "file"
+            },
+            {
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "blackswan1.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "blackswan2.jpg",
                   "type": "file"
                 }
               ]
@@ -379,6 +403,26 @@
           ]
         },
         {
+          "name": "furina",
+          "type": "directory",
+          "children": [
+            {
+              "name": "default.json",
+              "type": "file"
+            },
+            {
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "furina1.jpg",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "haku",
           "type": "directory",
           "children": [
@@ -448,6 +492,30 @@
                 },
                 {
                   "name": "hello-kitty3.jpeg",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "hollow-knight",
+          "type": "directory",
+          "children": [
+            {
+              "name": "default.json",
+              "type": "file"
+            },
+            {
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "hollow1.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "hollow2.jpg",
                   "type": "file"
                 }
               ]
@@ -563,6 +631,54 @@
           ]
         },
         {
+          "name": "layla",
+          "type": "directory",
+          "children": [
+            {
+              "name": "default.json",
+              "type": "file"
+            },
+            {
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "layla1.PNG",
+                  "type": "file"
+                },
+                {
+                  "name": "layla2.PNG",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "loki",
+          "type": "directory",
+          "children": [
+            {
+              "name": "default.json",
+              "type": "file"
+            },
+            {
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "loki1.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "loki2.jpg",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "majoras-mask",
           "type": "directory",
           "children": [
@@ -579,19 +695,59 @@
                   "type": "file"
                 },
                 {
-                  "name": "majoras1.jpg",
-                  "type": "file"
-                },
-                {
                   "name": "majoras2.jpeg",
                   "type": "file"
                 },
                 {
-                  "name": "majoras2.jpg",
+                  "name": "majoras3.jpeg",
                   "type": "file"
                 },
                 {
-                  "name": "majoras3.jpeg",
+                  "name": "majoras4.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "majoras5.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "majoras6.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "majoras7.jpg",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "master-sword-danificada",
+          "type": "directory",
+          "children": [
+            {
+              "name": "default.json",
+              "type": "file"
+            },
+            {
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "mastersworddanificada1.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "mastersworddanificada2.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "mastersworddanificada3.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "mastersworddanificada4.jpg",
                   "type": "file"
                 }
               ]
@@ -727,6 +883,38 @@
           ]
         },
         {
+          "name": "stelle(peach)",
+          "type": "directory",
+          "children": [
+            {
+              "name": "default.json",
+              "type": "file"
+            },
+            {
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "stelle1.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "stelle2.JPG",
+                  "type": "file"
+                },
+                {
+                  "name": "stelle3.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "stelle4.jpg",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "toad",
           "type": "directory",
           "children": [
@@ -795,6 +983,26 @@
           ]
         },
         {
+          "name": "tracer-gun",
+          "type": "directory",
+          "children": [
+            {
+              "name": "default.json",
+              "type": "file"
+            },
+            {
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "tracergun1.jpg",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "vaporeon",
           "type": "directory",
           "children": [
@@ -839,6 +1047,34 @@
           ]
         },
         {
+          "name": "yone-hearthsteel",
+          "type": "directory",
+          "children": [
+            {
+              "name": "default.json",
+              "type": "file"
+            },
+            {
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "yone1.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "yone2.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "yone3.jpg",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "yor-spy-family",
           "type": "directory",
           "children": [
@@ -859,11 +1095,6 @@
           ]
         }
       ]
-    },
-    {
-      "name": "lol",
-      "type": "directory",
-      "children": []
     }
   ]
 }
