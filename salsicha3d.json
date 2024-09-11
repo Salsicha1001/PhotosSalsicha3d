@@ -335,17 +335,6 @@
           ]
         },
         {
-          "name": "evelynn-congregacao-das-bruxas",
-          "type": "directory",
-          "children": [
-            {
-              "name": "images",
-              "type": "directory",
-              "children": []
-            }
-          ]
-        },
-        {
           "name": "frieren",
           "type": "directory",
           "children": [
@@ -438,7 +427,7 @@
           ]
         },
         {
-          "name": "hello-kitty-yu-gi-oh",
+          "name": "hello-kitty-dark-magician",
           "type": "directory",
           "children": [
             {
@@ -870,6 +859,11 @@
           ]
         }
       ]
+    },
+    {
+      "name": "lol",
+      "type": "directory",
+      "children": []
     }
   ]
 }
