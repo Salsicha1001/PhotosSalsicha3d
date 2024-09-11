@@ -125,6 +125,46 @@
           ]
         },
         {
+          "name": "kaisa",
+          "type": "directory",
+          "children": [
+            {
+              "name": "default.json",
+              "type": "file"
+            },
+            {
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "kaisa1.JPG",
+                  "type": "file"
+                },
+                {
+                  "name": "kaisa2.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "kaisa3.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "kaisa4.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "kaisa5.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "kaisa6.jpeg",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "majoras-mask",
           "type": "directory",
           "children": [
@@ -154,30 +194,6 @@
                 },
                 {
                   "name": "majoras3.jpeg",
-                  "type": "file"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "master-sword-tears",
-          "type": "directory",
-          "children": [
-            {
-              "name": "default.json",
-              "type": "file"
-            },
-            {
-              "name": "images",
-              "type": "directory",
-              "children": [
-                {
-                  "name": "3D1.jpg",
-                  "type": "file"
-                },
-                {
-                  "name": "3D3.jpg",
                   "type": "file"
                 }
               ]
@@ -258,6 +274,26 @@
                 },
                 {
                   "name": "shaco2.jpg",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "yor-spy-family",
+          "type": "directory",
+          "children": [
+            {
+              "name": "default.json",
+              "type": "file"
+            },
+            {
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "yor1.jpg",
                   "type": "file"
                 }
               ]
