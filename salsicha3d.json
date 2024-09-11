@@ -103,24 +103,30 @@
           "type": "directory",
           "children": [
             {
-              "name": "ahri-kda1.jpg",
-              "type": "file"
-            },
-            {
-              "name": "ahri-kda2.jpg",
-              "type": "file"
-            },
-            {
-              "name": "ahri-kda3.jpg",
-              "type": "file"
-            },
-            {
-              "name": "ahri-kda4.jpg",
-              "type": "file"
-            },
-            {
               "name": "default.json",
               "type": "file"
+            },
+            {
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "ahri-kda1.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "ahri-kda2.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "ahri-kda3.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "ahri-kda4.jpg",
+                  "type": "file"
+                }
+              ]
             }
           ]
         },
@@ -129,28 +135,34 @@
           "type": "directory",
           "children": [
             {
-              "name": "akali1.jpg",
-              "type": "file"
-            },
-            {
-              "name": "akali2.jpg",
-              "type": "file"
-            },
-            {
-              "name": "akali3.jpg",
-              "type": "file"
-            },
-            {
-              "name": "akali4.jpg",
-              "type": "file"
-            },
-            {
-              "name": "akali5.jpg",
-              "type": "file"
-            },
-            {
               "name": "default.json",
               "type": "file"
+            },
+            {
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "akali1.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "akali2.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "akali3.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "akali4.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "akali5.jpg",
+                  "type": "file"
+                }
+              ]
             }
           ]
         },
@@ -159,24 +171,30 @@
           "type": "directory",
           "children": [
             {
-              "name": "akali1.jpg",
-              "type": "file"
-            },
-            {
-              "name": "akali2.jpg",
-              "type": "file"
-            },
-            {
-              "name": "akali3.jpg",
-              "type": "file"
-            },
-            {
-              "name": "akali4.jpg",
-              "type": "file"
-            },
-            {
               "name": "default.json",
               "type": "file"
+            },
+            {
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "akali1.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "akali2.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "akali3.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "akali4.jpg",
+                  "type": "file"
+                }
+              ]
             }
           ]
         },
@@ -233,12 +251,18 @@
               "type": "file"
             },
             {
-              "name": "ditto1.jpg",
-              "type": "file"
-            },
-            {
-              "name": "ditto2.jpg",
-              "type": "file"
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "ditto1.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "ditto2.jpg",
+                  "type": "file"
+                }
+              ]
             }
           ]
         },
@@ -251,24 +275,30 @@
               "type": "file"
             },
             {
-              "name": "dragonite1.jpeg",
-              "type": "file"
-            },
-            {
-              "name": "dragonite2.jpg",
-              "type": "file"
-            },
-            {
-              "name": "dragonite3.jpg",
-              "type": "file"
-            },
-            {
-              "name": "dragonite4.jpg",
-              "type": "file"
-            },
-            {
-              "name": "dragonite5.jpg",
-              "type": "file"
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "dragonite1.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "dragonite2.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "dragonite3.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "dragonite4.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "dragonite5.jpg",
+                  "type": "file"
+                }
+              ]
             }
           ]
         },
@@ -281,20 +311,26 @@
               "type": "file"
             },
             {
-              "name": "eren1.jpeg",
-              "type": "file"
-            },
-            {
-              "name": "eren2.jpeg",
-              "type": "file"
-            },
-            {
-              "name": "eren3.jpeg",
-              "type": "file"
-            },
-            {
-              "name": "eren4.jpeg",
-              "type": "file"
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "eren1.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "eren2.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "eren3.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "eren4.jpeg",
+                  "type": "file"
+                }
+              ]
             }
           ]
         },
@@ -318,32 +354,38 @@
               "type": "file"
             },
             {
-              "name": "frieren1.jpeg",
-              "type": "file"
-            },
-            {
-              "name": "frieren2.jpeg",
-              "type": "file"
-            },
-            {
-              "name": "frieren3.jpeg",
-              "type": "file"
-            },
-            {
-              "name": "frieren4.jpeg",
-              "type": "file"
-            },
-            {
-              "name": "frieren5.jpeg",
-              "type": "file"
-            },
-            {
-              "name": "frieren6.jpeg",
-              "type": "file"
-            },
-            {
-              "name": "frieren7.jpeg",
-              "type": "file"
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "frieren1.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "frieren2.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "frieren3.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "frieren4.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "frieren5.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "frieren6.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "frieren7.jpeg",
+                  "type": "file"
+                }
+              ]
             }
           ]
         },
@@ -356,36 +398,42 @@
               "type": "file"
             },
             {
-              "name": "haku1.jpeg",
-              "type": "file"
-            },
-            {
-              "name": "haku2.jpeg",
-              "type": "file"
-            },
-            {
-              "name": "haku3.jpeg",
-              "type": "file"
-            },
-            {
-              "name": "haku4.jpeg",
-              "type": "file"
-            },
-            {
-              "name": "haku5.jpeg",
-              "type": "file"
-            },
-            {
-              "name": "haku6.jpeg",
-              "type": "file"
-            },
-            {
-              "name": "haku7.jpeg",
-              "type": "file"
-            },
-            {
-              "name": "haku8.jpeg",
-              "type": "file"
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "haku1.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "haku2.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "haku3.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "haku4.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "haku5.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "haku6.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "haku7.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "haku8.jpeg",
+                  "type": "file"
+                }
+              ]
             }
           ]
         },
@@ -398,16 +446,22 @@
               "type": "file"
             },
             {
-              "name": "hello-kitty1.jpg",
-              "type": "file"
-            },
-            {
-              "name": "hello-kitty2.jpeg",
-              "type": "file"
-            },
-            {
-              "name": "hello-kitty3.jpeg",
-              "type": "file"
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "hello-kitty1.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "hello-kitty2.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "hello-kitty3.jpeg",
+                  "type": "file"
+                }
+              ]
             }
           ]
         },
@@ -420,32 +474,38 @@
               "type": "file"
             },
             {
-              "name": "jinx1.jpg",
-              "type": "file"
-            },
-            {
-              "name": "jinx2.jpg",
-              "type": "file"
-            },
-            {
-              "name": "jinx3.jpg",
-              "type": "file"
-            },
-            {
-              "name": "jinx4.jpg",
-              "type": "file"
-            },
-            {
-              "name": "jinx5.jpg",
-              "type": "file"
-            },
-            {
-              "name": "jinx6.jpg",
-              "type": "file"
-            },
-            {
-              "name": "jinx7.jpg",
-              "type": "file"
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "jinx1.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "jinx2.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "jinx3.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "jinx4.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "jinx5.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "jinx6.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "jinx7.jpg",
+                  "type": "file"
+                }
+              ]
             }
           ]
         },
@@ -498,12 +558,18 @@
               "type": "file"
             },
             {
-              "name": "lapras1.jpg",
-              "type": "file"
-            },
-            {
-              "name": "lapras2.jpg",
-              "type": "file"
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "lapras1.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "lapras2.jpg",
+                  "type": "file"
+                }
+              ]
             }
           ]
         },
@@ -632,12 +698,18 @@
               "type": "file"
             },
             {
-              "name": "shinobu1.jpg",
-              "type": "file"
-            },
-            {
-              "name": "shinobu2.jpg",
-              "type": "file"
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "shinobu1.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "shinobu2.jpg",
+                  "type": "file"
+                }
+              ]
             }
           ]
         },
@@ -650,12 +722,18 @@
               "type": "file"
             },
             {
-              "name": "squirtle1.jpg",
-              "type": "file"
-            },
-            {
-              "name": "squirtle2.jpg",
-              "type": "file"
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "squirtle1.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "squirtle2.jpg",
+                  "type": "file"
+                }
+              ]
             }
           ]
         },
@@ -668,16 +746,22 @@
               "type": "file"
             },
             {
-              "name": "toad1.jpeg",
-              "type": "file"
-            },
-            {
-              "name": "toad2.jpeg",
-              "type": "file"
-            },
-            {
-              "name": "toad3.jpg",
-              "type": "file"
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "toad1.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "toad2.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "toad3.jpg",
+                  "type": "file"
+                }
+              ]
             }
           ]
         },
@@ -690,28 +774,34 @@
               "type": "file"
             },
             {
-              "name": "tracer1.jpg",
-              "type": "file"
-            },
-            {
-              "name": "tracer2.jpg",
-              "type": "file"
-            },
-            {
-              "name": "tracer3.jpg",
-              "type": "file"
-            },
-            {
-              "name": "tracer4.jpg",
-              "type": "file"
-            },
-            {
-              "name": "tracer5.jpg",
-              "type": "file"
-            },
-            {
-              "name": "tracer6.jpg",
-              "type": "file"
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "tracer1.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "tracer2.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "tracer3.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "tracer4.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "tracer5.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "tracer6.jpg",
+                  "type": "file"
+                }
+              ]
             }
           ]
         },
@@ -724,32 +814,38 @@
               "type": "file"
             },
             {
-              "name": "vaporeon1.jpg",
-              "type": "file"
-            },
-            {
-              "name": "vaporeon2.jpg",
-              "type": "file"
-            },
-            {
-              "name": "vaporeon3.jpg",
-              "type": "file"
-            },
-            {
-              "name": "vaporeon4.jpg",
-              "type": "file"
-            },
-            {
-              "name": "vaporeon5.jpg",
-              "type": "file"
-            },
-            {
-              "name": "vaporeon7.jpg",
-              "type": "file"
-            },
-            {
-              "name": "vaporoen6.jpg",
-              "type": "file"
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "vaporeon1.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "vaporeon2.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "vaporeon3.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "vaporeon4.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "vaporeon5.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "vaporeon7.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "vaporoen6.jpg",
+                  "type": "file"
+                }
+              ]
             }
           ]
         },
