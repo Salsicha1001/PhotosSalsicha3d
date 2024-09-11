@@ -335,17 +335,6 @@
           ]
         },
         {
-          "name": "evelynn-congregacao-das-bruxas",
-          "type": "directory",
-          "children": [
-            {
-              "name": "images",
-              "type": "directory",
-              "children": []
-            }
-          ]
-        },
-        {
           "name": "frieren",
           "type": "directory",
           "children": [
@@ -870,6 +859,11 @@
           ]
         }
       ]
+    },
+    {
+      "name": "lol",
+      "type": "directory",
+      "children": []
     }
   ]
 }
