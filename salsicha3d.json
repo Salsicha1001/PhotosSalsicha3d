@@ -99,74 +99,6 @@
           ]
         },
         {
-          "name": "ahri-kda",
-          "type": "directory",
-          "children": [
-            {
-              "name": "default.json",
-              "type": "file"
-            },
-            {
-              "name": "images",
-              "type": "directory",
-              "children": [
-                {
-                  "name": "ahri-kda1.jpg",
-                  "type": "file"
-                },
-                {
-                  "name": "ahri-kda2.jpg",
-                  "type": "file"
-                },
-                {
-                  "name": "ahri-kda3.jpg",
-                  "type": "file"
-                },
-                {
-                  "name": "ahri-kda4.jpg",
-                  "type": "file"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "akali",
-          "type": "directory",
-          "children": [
-            {
-              "name": "default.json",
-              "type": "file"
-            },
-            {
-              "name": "images",
-              "type": "directory",
-              "children": [
-                {
-                  "name": "akali1.jpeg",
-                  "type": "file"
-                },
-                {
-                  "name": "akali2.jpeg",
-                  "type": "file"
-                },
-                {
-                  "name": "akali3.jpeg",
-                  "type": "file"
-                },
-                {
-                  "name": "akali4.jpeg",
-                  "type": "file"
-                },
-                {
-                  "name": "akali5.jpeg",
-                  "type": "file"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "akali-kda",
           "type": "directory",
           "children": [
@@ -723,38 +655,6 @@
           ]
         },
         {
-          "name": "master-sword-danificada",
-          "type": "directory",
-          "children": [
-            {
-              "name": "default.json",
-              "type": "file"
-            },
-            {
-              "name": "images",
-              "type": "directory",
-              "children": [
-                {
-                  "name": "mastersworddanificada1.jpg",
-                  "type": "file"
-                },
-                {
-                  "name": "mastersworddanificada2.jpg",
-                  "type": "file"
-                },
-                {
-                  "name": "mastersworddanificada3.jpg",
-                  "type": "file"
-                },
-                {
-                  "name": "mastersworddanificada4.jpg",
-                  "type": "file"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "mona",
           "type": "directory",
           "children": [
@@ -1095,6 +995,11 @@
           ]
         }
       ]
+    },
+    {
+      "name": "lol",
+      "type": "directory",
+      "children": []
     }
   ]
 }
