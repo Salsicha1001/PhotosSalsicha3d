@@ -259,38 +259,6 @@
           ]
         },
         {
-          "name": "eren",
-          "type": "directory",
-          "children": [
-            {
-              "name": "default.json",
-              "type": "file"
-            },
-            {
-              "name": "images",
-              "type": "directory",
-              "children": [
-                {
-                  "name": "eren1.jpeg",
-                  "type": "file"
-                },
-                {
-                  "name": "eren2.jpeg",
-                  "type": "file"
-                },
-                {
-                  "name": "eren3.jpeg",
-                  "type": "file"
-                },
-                {
-                  "name": "eren4.jpeg",
-                  "type": "file"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "frieren",
           "type": "directory",
           "children": [
@@ -328,26 +296,6 @@
                 },
                 {
                   "name": "frieren7.jpeg",
-                  "type": "file"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "furina",
-          "type": "directory",
-          "children": [
-            {
-              "name": "default.json",
-              "type": "file"
-            },
-            {
-              "name": "images",
-              "type": "directory",
-              "children": [
-                {
-                  "name": "furina1.jpg",
                   "type": "file"
                 }
               ]
@@ -424,30 +372,6 @@
                 },
                 {
                   "name": "hello-kitty3.jpeg",
-                  "type": "file"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "hollow-knight",
-          "type": "directory",
-          "children": [
-            {
-              "name": "default.json",
-              "type": "file"
-            },
-            {
-              "name": "images",
-              "type": "directory",
-              "children": [
-                {
-                  "name": "hollow1.jpg",
-                  "type": "file"
-                },
-                {
-                  "name": "hollow2.jpg",
                   "type": "file"
                 }
               ]
