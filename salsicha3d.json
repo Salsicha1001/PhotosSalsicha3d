@@ -547,6 +547,14 @@
               "type": "directory",
               "children": [
                 {
+                  "name": "E9855B4E-3E05-4F68-91EC-E1209686C91C.jpeg",
+                  "type": "file"
+                },
+                {
+                  "name": "majoras0.jpeg",
+                  "type": "file"
+                },
+                {
                   "name": "majoras1.jpeg",
                   "type": "file"
                 },
@@ -620,6 +628,22 @@
               "children": [
                 {
                   "name": "image.png",
+                  "type": "file"
+                },
+                {
+                  "name": "IMG_6400.JPG",
+                  "type": "file"
+                },
+                {
+                  "name": "IMG_6401.JPG",
+                  "type": "file"
+                },
+                {
+                  "name": "IMG_6402.JPG",
+                  "type": "file"
+                },
+                {
+                  "name": "IMG_6403.JPG",
                   "type": "file"
                 }
               ]
@@ -812,6 +836,38 @@
               "children": [
                 {
                   "name": "tracergun1.jpg",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "turma-sonic",
+          "type": "directory",
+          "children": [
+            {
+              "name": "default.json",
+              "type": "file"
+            },
+            {
+              "name": "images",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "sonic2.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "sonic3.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "sonic5.jpg",
+                  "type": "file"
+                },
+                {
+                  "name": "sonic6.jpg",
                   "type": "file"
                 }
               ]
